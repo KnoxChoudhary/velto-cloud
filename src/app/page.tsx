@@ -104,8 +104,8 @@ export default async function Home() {
               Easy Setup
             </h3>
             <p className="text-gray-600">
-              Add your Telegram group link, set your price, and you're ready to
-              go. No technical knowledge required.
+              Add your Telegram group link, set your price, and you&apos;re
+              ready to go. No technical knowledge required.
             </p>
           </div>
 
