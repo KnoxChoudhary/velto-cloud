@@ -73,7 +73,6 @@ export interface ClerkWebhookEvent {
       last_name: string;
       image_url: string;
       username: string;
-      public_metadata: Record<string, any>;
       label: string;
       created_at: number;
       updated_at: number;
@@ -117,9 +116,6 @@ export interface ClerkWebhookEvent {
       };
     }>;
     password_enabled?: boolean;
-    public_metadata?: Record<string, any>;
-    private_metadata?: Record<string, any>;
-    unsafe_metadata?: Record<string, any>;
   };
   object: string;
   type: string;

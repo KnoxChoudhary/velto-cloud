@@ -34,6 +34,7 @@ export async function POST(req: Request) {
     clerk_id: id, // Store Clerk's user ID in clerk_id field
     email: email_addresses?.[0]?.email_address ?? "",
     name: `${first_name ?? ""} ${last_name ?? ""}`.trim(),
+    username: username, // Store username if available
     // Note: username is not in your table schema, so removing it
   });
 
