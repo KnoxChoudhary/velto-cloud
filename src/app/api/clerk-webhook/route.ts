@@ -4,7 +4,7 @@ import { createClient } from "@supabase/supabase-js";
 import { ClerkWebhookEvent } from "@/types";
 
 const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.SUPABASE_URL!, // Use SUPABASE_URL for server-side
   process.env.SUPABASE_SERVICE_ROLE_KEY!
 );
 
